@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Queen</string>
+
+    <string name="choice_welcme">Hello</string>
+    <string name="choice_preg">Expecting baby?</string>
+    <string name="choice_or">or</string>
+    <string name="choice_newmom">New mom?</string>
+    <string name="title_activity_draw">draw</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
