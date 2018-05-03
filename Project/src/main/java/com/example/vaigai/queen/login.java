@@ -31,7 +31,7 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mydatabase = openOrCreateDatabase("queen",MODE_PRIVATE,null);
-        mydatabase.execSQL("DROP TABLE profile");
+        mydatabase.execSQL("DROP TABLE IF EXISTS profile");
         mydatabase.execSQL("CREATE TABLE IF NOT EXISTS profile(name VARCHAR,dob VARCHAR,mobile INT,email VARCHAR,pass VARCHAR,catagory VARCHAR,lpd VARCHAR,height INT,weight INT,spouse VARCHAR,location VARCHAR,week VARCHAR,babyDOB VARCHAR,medication VARCHAR,alarm VARCHAR);");
         EditText password = (EditText) findViewById(R.id.editText11);
         password.setTypeface(Typeface.DEFAULT);
